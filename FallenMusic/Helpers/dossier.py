@@ -1,0 +1,99 @@
+# MIT License
+#
+# Copyright (c) 2023 AnonymousX1025
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+from FallenMusic import BOT_NAME
+
+PM_START_TEXT = """
+⩹⌯⊷━‌‌‏  𝐚𝐝𝐭𝐡𝐨𝐧 𝐬𝐨𝐮𝐫𝐜𝐞𝐬 𖧊━⊶⌯⩺ 
+
+♡ اهــلا بـك » {0}
+
+♡ انـا بــوت » {1}
+
+♡ اســتـطـيـع تـشـغـيـل الـقـرآن الـكـريـم
+
+♡ في الـمكـالـمات الـصوتية
+
+♡ تـابع الازرار في الاسفل لـمعرفة الاوامر
+
+⩹⌯⊷━‌‌‏  𝐚𝐝𝐭𝐡𝐨𝐧 𝐬𝐨𝐮𝐫𝐜𝐞𝐬 𖧊━⊶⌯⩺ 
+"""
+
+START_TEXT = """
+━‌‌‏─━─『������』─━─━‌‌‏
+♡ مـرحـبـا » {0} 
+♡ انا بـوت استطيع تـشـغيـل
+♡ القرآن في المكالمات
+♡ لـمـعـرفة اوامـر الـتـشـغـيـل
+♡ ادخـــــــل الـــــى البــــــوت
+━‌‌‏─━─『������』─━─━‌‌‏
+"""
+
+HELP_TEXT = f"""
+<u>♡ **الاوامر في بوت سورس ادثون {BOT_NAME} :**</u>
+
+♡ لـتـشـغـيل سورة في الـمكـالـمة الـصـوتـيـة
+♡ اكتب تشغيل + اسم السورة
+
+♡ لإيقاف تشغيل القران في المكالمة مؤقتاً
+♡ اكتب كتم او اسكت
+
+♡ لأسـتـئـنـاف تـشغـيل القران في المكالمة
+♡ اكتب كمل او الغاء الكتم
+
+♡ لتخطي السورة وتشغيل السورة التالية
+♡ اكتب تخطي او التالي
+ 
+♡ لإيقاف تشغيل القران في المكالمة
+♡ اكتب ايقاف او قف
+
+♡ اكتب بنج لمعرفة سرعة تشغيل البوت
+♡ اكتب المطورين لمعرفة مطورين البوت
+♡ اكتب تحميل  سورة+ الاسم للتنزيل من اليوتيوب
+♡ اكتب بحث سورة + الاسم للبحث عن سورة
+"""
+
+HELP_SUDO = f"""
+<u>♡ **اوامر المطور {BOT_NAME} :**</u>
+
+♡ اكتب المكالمات لمعرفة المكالمات في البوت
+♡ اكتب /eval لتشغيل على محطة البوت 
+♡ اكتب فحص لاختبار سرعة السيرفر  
+♡ اكتب الاحصائيات لعرض إحصائيات السيرفر 
+
+♡ اكتب /اسم + الاسم لوضعة اسم للمساعد
+♡ اكتب /بايو + البايو لوضعة بايو للمساعد
+♡ اكتب /صورة واعمل ريب على صورة للمساعد
+♡ اكتب /مسح لحذف صورة الحساب المساعد 
+"""
+
+HELP_DEV = f"""
+<u>♡ **اوامر المالك {BOT_NAME} :**</u>
+
+♡ اكتب الفارات لجلب فارات تنصيب البوت
+♡ اكتب اذاعة و اعمل ريب على الاذاعه
+♡ اكتب تنظيف لمسح التخزين المؤقت للبوت
+♡ اكتب مغادرة لمغادرة المساعد للجروبات
+
+♡ اكتب /مطور +اليوزر لإضافة مطور في البوت
+♡ اكتب /تنزيل +اليوزر لـتـنزيل مطور من البوت
+"""

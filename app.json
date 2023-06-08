@@ -1,0 +1,62 @@
+{
+    "name": "سورس قرآن ادثون",
+    "description": "اللهم صلي علي سيدنا محمد 🌺 ملاحظة مهمة: ما احلل ولا اسامحك اذا تستخدمه للاغاني",
+    "logo": "https://graph.org/file/bc209f6f870f7b50d156a.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "Fallen",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": " ايبي ايدي من هنا https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": " ايبي هاش من هنا https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "توكن بوتك",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ايدي المالك",
+        "value": "",
+        "required": true
+      },
+      "SESSION": {
+        "description": "ضـع جلسة البايروجرام احصل عليها من هنا @str1ngsess1onsbot",
+        "value": "",
+        "required": true
+      },
+      "SUDO_USERS": {
+        "description": "ايدي المساعد",
+        "value": "",
+        "required": true
+      },
+      "SUPPORT_CHAT": {
+        "description": "قروب الدعم ( خليه مثل ما هو افضل )",
+        "value": "https://t.me/adthon_help",
+        "required": false
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
